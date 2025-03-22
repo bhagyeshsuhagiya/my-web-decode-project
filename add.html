@@ -3,16 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adding an Image</title>
+    <style>
+         .gallery {
+            display: flex;
+            flex-direction: column; /* Stacks rows vertically */
+            align-items: center; /* Centers content */
+            gap: 30px; /* Space between rows */
+            padding: 20px;
+        }
+        /* Styling the container to arrange images in a row */
+        .image-container {
+            display: flex; /* Enables flexbox */
+            justify-content: center; /* Centers images horizontally */
+            gap: 10px; /* Adds spacing between images */
+        }
+        .image-container img {
+            width: 300px; /* Adjust width */
+            height: 600px; /* Adjust height */
+            border-radius: 8px; /* Optional: Adds rounded corners */
+        }
+    </style>
 </head>
 <body>
+    <center>
+        <h1>Decompilation of Touchless Contact Dialer App</h1>
+    </center>
+    <div class="gallery">
 
-    <h1>Welcome to My Website</h1>
-
-    <!-- Adding an Image -->
-    <img src="add.jpg" alt="A Beautiful Scenery" width="500" height="300">
-
-    <p>This is an image displayed using the HTML `<img>` tag.</p>
-
-</body>
+    <!-- Image Container -->
+    <div class="image-container">
+        <img src="images/splash.jpg" alt="Image 1">
+        <img src="images/intro.jpg" alt="Image 2">
+        <img src="images/privacypolicy.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="images/defaultapp.jpg" alt="Image 1">
+        <img src="images/notice.jpg" alt="Image 2">
+        <img src="images/home.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="images/callvoice.jpg" alt="Image 1">
+        <img src="images/callvoicetwo.jpg" alt="Image 2">
+        <img src="images/sidebar.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="images/setting.jpg" alt="Image 1">
+        <img src="images/share.jpg" alt="Image 2">
+        <img src="images/about.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="images/privacypolicy.jpg" alt="Image 1">
+        <img src="images/allwall.jpg" alt="Image 2">
+        <img src="images/detailwaall.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="images/livewall.jpg" alt="Image 1">
+        <img src="images/recentcall.jpg" alt="Image 2">
+        <img src="images/contact.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="images/contactlist.jpg" alt="Image 1">
+        <img src="images/savecontact.jpg" alt="Image 2">
+        <img src="images/share.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="images/addvoice.jpg" alt="Image 1">
+        <img src="images/add.jpg" alt="Image 2">
+    </div>
+    </div>
+</body
 </html>
